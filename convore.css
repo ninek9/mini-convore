@@ -1,0 +1,161 @@
+/* Convore Min-Width Userstyle */
+/* author: Adam Brault */
+/* http://andyet.net*/
+/* Would love to see @etmaguire add his own version of something like this to the site. :D */
+
+
+@media screen and (max-width: 450px) {
+
+	#topic-detail.group * {
+	  float: none !important;
+	  width: auto !important;
+	}
+
+	#topic-detail.group {
+	  min-width: 300px !important;
+
+	}
+
+	#topic-detail.group #stripe {
+	  z-index: 9999 !important;
+	  top: 0 !important;
+	  position: z-index !important;
+	  width: 100% !important;
+	}
+
+	#topic-detail.group #header #logo a {
+	  width: 24px !important;
+	  left: 15px !important;
+	}
+
+	#topic-detail.group #message-list {
+	  padding: 0px !important;
+	}
+
+	#topic-detail.group #main {
+	  width: 100% !important;
+	}
+
+	#topic-detail.group #footer {
+	  width: 100% !important;
+	}
+
+	#topic-detail.group #footer {
+	  min-height: 50px !important;
+	}
+
+	#topic-detail.group .left, .copyright, #topic-detail.group #post-as-new-topic, #topic-detail.group .you-say {
+	  display: none !important;
+	}
+
+	#topic-detail.group .topic-title {
+	  position: absolute !important;
+	  top: 0 !important;
+	  z-index: 1000 !important;
+	}
+
+	#topic-detail.group .topic-title h2 {
+	  width: auto !important;
+	}
+
+	#topic-detail.group .header-content {
+	  width: 100% !mportant;
+	}
+
+	#topic-detail.group .message .user img {
+	  position: absolute !important;
+	}
+
+	#topic-detail.group .embedded-images li img {
+	  margin: 10px 30px !important;
+	}
+
+	#topic-detail.group #topic-detail-topic, #topic-detail.group .header-title {
+	  border-top: 0px !important;
+	}
+
+	#topic-detail.group #header {
+	  top: 4px !important;
+	  z-index: 100 !important;
+	}
+
+	#topic-detail.group .topic-title {
+	  padding: 0 !important;
+	  margin: 0 !important;
+	  left: 40px !important;
+	  top: 10px !important;
+	  border: 0 none !important;
+	  width: 250px !important;
+	  z-index: 99999 !important;
+	  background: transparent !important;
+	  border: 0px none transparent !important;
+	  height: auto !important;
+	}
+
+	#topic-detail.group .topic-title h2 {
+	  text-shadow: #000 0 0 5px;
+	  color: white !important;
+	  font-size: 16px !important;
+	  border: 0 none !important;
+	  z-index: 99999 !important;
+	  background: transparent !important;
+	  border: 0px none !important;
+	}
+
+
+	#topic-detail.group .topic-title .new-topic {
+		display: none !important;
+	}
+
+	#topic-detail.group #id-message {
+	  width: 95% !important
+	}
+
+	#topic-detail.group #post-message span {
+	  position: absolute !important;
+	  display: none !important;
+	}
+
+	#topic-detail.group .btn {
+	  display: none !important;
+	}
+
+	#topic-detail.group #topic-detail-topic.topic-title {
+	  position: fixed !important;
+	  background: transparent !important;
+	  height: 30px !important;
+	  z-index: 200 !important;
+	  padding: 6px 9px 6px !important;
+	  width: 100% !important;
+	}
+
+	#topic-detail.group #topic-detail-topic .thumb {
+	  display: none !important;
+	}
+
+	#topic-detail.group .pad, #global-search, #topic-detail.group .global-unread-count {
+	  display: none !important;
+	}
+
+	#topic-detail.group #header .header-content {
+	  width: auto !important;
+	}
+
+	#topic-detail.group #main-menu {
+	  display: none !important;
+	}
+
+	#topic-detail.group .settings-login-menu {
+	  display: none !important;
+	}
+
+	#topic-detail.group .gray-btns {
+	  display: none !important;
+	}
+
+	#topic-detail.group .message .user {
+	  float: left !important;
+	  margin: 1px 5px 0 0 !important;
+	}
+
+}
